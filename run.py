@@ -42,7 +42,7 @@ for URL in URLS:
 
     # cover results that partially match ID, this may still be buggy and miss a few pictures
 
-    results = soup.find_all('div', id=lambda x: x and (x.startswith('cover-image-https-inaturalist-open-data-s-3-amazonaws-com-photos') or x.startswith('https://static.inaturalist.org/photos/')))
+    results = soup.find_all('div', id=lambda x: x and (x.startswith('cover-image-https-inaturalist-open-data-s-3-amazonaws-com-photos') or x.startswith('cover-image-https-static-inaturalist-org-photos')))
 
     for result in results:
         url = result["style"].split('url(')[1].split(')')[0].replace('\"', '')
