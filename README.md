@@ -1,7 +1,5 @@
-This is the program for webscraping inaturalist. Modify the list with URLs for the types of bacteria you would like to scrape. 
+View the jupyter notebook labeled "run.ipynb" for further details on how to collect images from the inaturalist API system.
 
-Loads the images into corresponding folder under images folder. 
+Download relevant datasets (i.e. Dataset-1, Dataset-2) on your local computer for analysis.
 
-In order to run, please make sure you have requests, selenium, os, and bs4 installed, as well as python 3.9. 
-
-This is a much quicker option than individually downloading each image.
+View the jupyter notebook labeled "getshape.ipynb" to view information on the original datasets.
